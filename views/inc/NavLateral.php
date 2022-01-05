@@ -16,20 +16,33 @@
                 </li>
 
                 <li>
-                    <a href="#" class="nav-btn-submenu"><i class="fas fa-users fa-fw"></i> &nbsp; Clientes <i class="fas fa-chevron-down"></i></a>
+                    <a href="#" class="nav-btn-submenu"><i class="fas fa-users fa-fw"></i> &nbsp; Jugadores <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="client-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Cliente</a>
+                            <a href="client-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Jugador</a>
                         </li>
                         <li>
-                            <a href="client-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de clientes</a>
+                            <a href="players-list-view.php"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de jugadores</a>
                         </li>
                         <li>
-                            <a href="client-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar cliente</a>
+                            <a href="client-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar jugador</a>
                         </li>
                     </ul>
                 </li>
-
+                <li>
+                    <a href="#" class="nav-btn-submenu"><i class="fas fa-users fa-fw"></i> &nbsp; Acudientes <i class="fas fa-chevron-down"></i></a>
+                    <ul>
+                        <li>
+                            <a href="client-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Acudiente</a>
+                        </li>
+                        <li>
+                            <a href="client-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de acudientes</a>
+                        </li>
+                        <li>
+                            <a href="client-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar acudiente</a>
+                        </li>
+                    </ul>
+                </li>
                 <li>
                     <a href="#" class="nav-btn-submenu"><i class="fas fa-pallet fa-fw"></i> &nbsp; Items <i class="fas fa-chevron-down"></i></a>
                     <ul>

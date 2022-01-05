@@ -5,7 +5,8 @@
          /*--------- Models to get views --------- */
          protected static function get_views_models($view)
          {
-             $whiteList = [];
+             $whiteList =
+                    ["home","players-list","player-new-view","player-search","player-update",   "guardian-new","guardian-list","guardian-search","guardian-update","user-list","user-new","user-update","user-search"];
  
              if(in_array($view, $whiteList))
              {
