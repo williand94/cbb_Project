@@ -12,20 +12,20 @@
         <nav class="full-box nav-lateral-menu">
             <ul>
                 <li>
-                    <a href="home.html"><i class="fab fa-dashcube fa-fw"></i> &nbsp; Dashboard</a>
+                    <a href="<?php echo SERVERURL;?>home/"><i class="fab fa-dashcube fa-fw"></i> &nbsp; Dashboard</a>
                 </li>
 
                 <li>
                     <a href="#" class="nav-btn-submenu"><i class="fas fa-users fa-fw"></i> &nbsp; Jugadores <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="client-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Jugador</a>
+                            <a href="<?php echo SERVERURL;?>player-new/"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Jugador</a>
                         </li>
                         <li>
-                            <a href="players-list-view.php"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de jugadores</a>
+                            <a href="<?php echo SERVERURL;?>players-list/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de jugadores</a>
                         </li>
                         <li>
-                            <a href="client-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar jugador</a>
+                            <a href="<?php echo SERVERURL;?>player-search/"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar jugador</a>
                         </li>
                     </ul>
                 </li>
@@ -33,13 +33,13 @@
                     <a href="#" class="nav-btn-submenu"><i class="fas fa-users fa-fw"></i> &nbsp; Acudientes <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="client-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Acudiente</a>
+                            <a href="<?php echo SERVERURL;?>guardian-new/"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Acudiente</a>
                         </li>
                         <li>
-                            <a href="client-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de acudientes</a>
+                            <a href="<?php echo SERVERURL;?>guardian-list/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de acudientes</a>
                         </li>
                         <li>
-                            <a href="client-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar acudiente</a>
+                            <a href="<?php echo SERVERURL;?>guardian-search/"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar acudiente</a>
                         </li>
                     </ul>
                 </li>
@@ -47,13 +47,13 @@
                     <a href="#" class="nav-btn-submenu"><i class="fas fa-pallet fa-fw"></i> &nbsp; Items <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="item-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar item</a>
+                            <a href="<?php echo SERVERURL;?>item-new/"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar item</a>
                         </li>
                         <li>
-                            <a href="item-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de items</a>
+                            <a href="<?php echo SERVERURL;?>item-list/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de items</a>
                         </li>
                         <li>
-                            <a href="item-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar item</a>
+                            <a href="<?php echo SERVERURL;?>item-search/"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar item</a>
                         </li>
                     </ul>
                 </li>
@@ -83,19 +83,19 @@
                     <a href="#" class="nav-btn-submenu"><i class="fas  fa-user-secret fa-fw"></i> &nbsp; Usuarios <i class="fas fa-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a href="user-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; Nuevo usuario</a>
+                            <a href="<?php echo SERVERURL;?>user-new/"><i class="fas fa-plus fa-fw"></i> &nbsp; Nuevo usuario</a>
                         </li>
                         <li>
-                            <a href="user-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de usuarios</a>
+                            <a href="<?php echo SERVERURL;?>user-list/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de usuarios</a>
                         </li>
                         <li>
-                            <a href="user-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar usuario</a>
+                            <a href="<?php echo SERVERURL;?>user-search/"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar usuario</a>
                         </li>
                     </ul>
                 </li>
 
                 <li>
-                    <a href="company.html"><i class="fas fa-store-alt fa-fw"></i> &nbsp; Empresa</a>
+                    <a href="<?php echo SERVERURL;?>company/"><i class="fas fa-store-alt fa-fw"></i> &nbsp; Empresa</a>
                 </li>
             </ul>
         </nav>

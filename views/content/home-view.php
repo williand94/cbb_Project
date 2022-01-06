@@ -10,7 +10,7 @@
 
 <!-- Content -->
 <div class="full-box tile-container">
-    <a href="client-new.html" class="tile">
+    <a href="<?php echo SERVERURL;?>players-list/" class="tile">
         <div class="tile-tittle">Clientes</div>
         <div class="tile-icon">
             <i class="fas fa-users fa-fw"></i>
@@ -18,7 +18,7 @@
         </div>
     </a>
 
-    <a href="item-list.html" class="tile">
+    <a href="<?php echo SERVERURL;?>item-list/" class="tile">
         <div class="tile-tittle">Items</div>
         <div class="tile-icon">
             <i class="fas fa-pallet fa-fw"></i>
@@ -50,7 +50,7 @@
         </div>
     </a>
 
-    <a href="user-list.html" class="tile">
+    <a href="<?php echo SERVERURL;?>user-list" class="tile">
         <div class="tile-tittle">Usuarios</div>
         <div class="tile-icon">
             <i class="fas fa-user-secret fa-fw"></i>
@@ -58,7 +58,7 @@
         </div>
     </a>
 
-    <a href="company.html" class="tile">
+    <a href="<?php echo SERVERURL;?>company/" class="tile">
         <div class="tile-tittle">Empresa</div>
         <div class="tile-icon">
             <i class="fas fa-store-alt fa-fw"></i>

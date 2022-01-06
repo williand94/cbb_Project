@@ -1,48 +1,78 @@
 <!-- Page header -->
 <div class="full-box page-header">
     <h3 class="text-left">
-        <i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE CLIENTES
+        <i class="fas fa-search fa-fw"></i> &nbsp; BUSCAR ITEM
     </h3>
     <p class="text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nostrum rerum animi natus beatae ex. Culpa blanditiis tempore amet alias placeat, obcaecati quaerat ullam, sunt est, odio aut veniam ratione.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum delectus eos enim numquam fugit optio accusantium, aperiam eius facere architecto facilis quibusdam asperiores veniam omnis saepe est et, quod obcaecati.
     </p>
 </div>
 
 <div class="container-fluid">
     <ul class="full-box list-unstyled page-nav-tabs">
         <li>
-            <a href="client-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR JUGADOR
+            <a href="item-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR ITEM</a>
         </li>
         <li>
-            <a class="active" href="client-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE JUGADORES</a>
+            <a href="item-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE ITEMS</a>
         </li>
         <li>
-            <a href="client-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; BUSCAR JUGADOR</a>
+            <a class="active" href="item-search.html"><i class="fas fa-search fa-fw"></i> &nbsp; BUSCAR ITEM</a>
         </li>
     </ul>
 </div>
 
-<!-- Content here-->
+<!--CONTENT-->
+<div class="container-fluid">
+    <form class="form-neon" action="">
+        <div class="container-fluid">
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="inputSearch" class="bmd-label-floating">¿Qué item estas buscando?</label>
+                        <input type="text" class="form-control" name="busqueda-" id="inputSearch" maxlength="30">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="text-center" style="margin-top: 40px;">
+                        <button type="submit" class="btn btn-raised btn-info"><i class="fas fa-search"></i> &nbsp; BUSCAR</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="container-fluid">
+    <form action="">
+        <input type="hidden" name="eliminar-busqueda" value="eliminar">
+        <div class="container-fluid">
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-md-6">
+                    <p class="text-center" style="font-size: 20px;">
+                        Resultados de la busqueda <strong>“Buscar”</strong>
+                    </p>
+                </div>
+                <div class="col-12">
+                    <p class="text-center" style="margin-top: 20px;">
+                        <button type="submit" class="btn btn-raised btn-danger"><i class="far fa-trash-alt"></i> &nbsp; ELIMINAR BÚSQUEDA</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
 <div class="container-fluid">
     <div class="table-responsive">
         <table class="table table-dark table-sm">
             <thead>
                 <tr class="text-center roboto-medium">
                     <th>#</th>
-                    <th>CATEGORÍA</th>
+                    <th>CÓDIGO</th>
                     <th>NOMBRE</th>
-                    <th>APELLIDO</th>
-                    <th>DOCUMENTO</th>
-                    <th>EDAD</th>
-                    <th>DIRECCIÓN</th>
-                    <th>GÉNERO</th>
-                    <th>ALTURA</th>
-                    <th>PESO</th>
-                    <th>FECHA DE INGRESO</th>
-                    <th>TELEFONO</th>
-                    <th>TALLA DE CAMISA</th>
-                    <th>TALLA DE ZAPATILLAS</th>
-                    <th>INFO</th>
+                    <th>STOCK</th>
+                    <th>DETALLE</th>
                     <th>ACTUALIZAR</th>
                     <th>ELIMINAR</th>
                 </tr>
@@ -50,26 +80,16 @@
             <tbody>
                 <tr class="text-center">
                     <td>1</td>
-                    <td>JUVENIL</td>
-                    <td>NOMBRE DEL CLIENTE</td>
-                    <td>APELLIDO DEL CLIENTE</td>
                     <td>012342567</td>
-                    <td>17</td>
-                    <td>BARRIO BOLIVAR</td>
-                    <td>MASCULINO</td>
-                    <td>196cmts</td>
-                    <td>94k</td>
-                    <td>01-01-2022</td>
-                    <td>72349874</td>
-                    <td>XL</td>
-                    <td>13.5</td>
+                    <td>NOMBRE DEL ITEM</td>
+                    <td>20</td>
                     <td>
-                        <button type="button" class="btn btn-info" data-toggle="popover" data-trigger="hover" title="Nombre del cliente" data-content="Direccion completa del cliente">
+                        <button type="button" class="btn btn-info" data-toggle="popover" data-trigger="hover" title="Titulo del item" data-content="Texto detalle del item ">
                             <i class="fas fa-info-circle"></i>
                         </button>
                     </td>
                     <td>
-                        <a href="client-update.html" class="btn btn-success">
+                        <a href="item-update.html" class="btn btn-success">
                             <i class="fas fa-sync-alt"></i>
                         </a>
                     </td>
@@ -84,16 +104,15 @@
                 <tr class="text-center">
                     <td>2</td>
                     <td>012342567</td>
-                    <td>NOMBRE DEL CLIENTE</td>
-                    <td>APELLIDO DEL CLIENTE</td>
-                    <td>72349874</td>
+                    <td>NOMBRE DEL ITEM</td>
+                    <td>57</td>
                     <td>
-                        <button type="button" class="btn btn-info" data-toggle="popover" data-trigger="hover" title="Nombre del cliente" data-content="Direccion completa del cliente">
+                        <button type="button" class="btn btn-info" data-toggle="popover" data-trigger="hover" title="Titulo del item" data-content="Texto detalle del item ">
                             <i class="fas fa-info-circle"></i>
                         </button>
                     </td>
                     <td>
-                        <a href="client-update.html" class="btn btn-success">
+                        <a href="item-update.html" class="btn btn-success">
                             <i class="fas fa-sync-alt"></i>
                         </a>
                     </td>
@@ -108,16 +127,15 @@
                 <tr class="text-center">
                     <td>3</td>
                     <td>012342567</td>
-                    <td>NOMBRE DEL CLIENTE</td>
-                    <td>APELLIDO DEL CLIENTE</td>
-                    <td>72349874</td>
+                    <td>NOMBRE DEL ITEM</td>
+                    <td>81</td>
                     <td>
-                        <button type="button" class="btn btn-info" data-toggle="popover" data-trigger="hover" title="Nombre del cliente" data-content="Direccion completa del cliente">
+                        <button type="button" class="btn btn-info" data-toggle="popover" data-trigger="hover" title="Titulo del item" data-content="Texto detalle del item ">
                             <i class="fas fa-info-circle"></i>
                         </button>
                     </td>
                     <td>
-                        <a href="client-update.html" class="btn btn-success">
+                        <a href="item-update.html" class="btn btn-success">
                             <i class="fas fa-sync-alt"></i>
                         </a>
                     </td>
@@ -132,16 +150,15 @@
                 <tr class="text-center">
                     <td>4</td>
                     <td>012342567</td>
-                    <td>NOMBRE DEL CLIENTE</td>
-                    <td>APELLIDO DEL CLIENTE</td>
-                    <td>72349874</td>
+                    <td>NOMBRE DEL ITEM</td>
+                    <td>90</td>
                     <td>
-                        <button type="button" class="btn btn-info" data-toggle="popover" data-trigger="hover" title="Nombre del cliente" data-content="Direccion completa del cliente">
+                        <button type="button" class="btn btn-info" data-toggle="popover" data-trigger="hover" title="Titulo del item" data-content="Texto detalle del item ">
                             <i class="fas fa-info-circle"></i>
                         </button>
                     </td>
                     <td>
-                        <a href="client-update.html" class="btn btn-success">
+                        <a href="item-update.html" class="btn btn-success">
                             <i class="fas fa-sync-alt"></i>
                         </a>
                     </td>

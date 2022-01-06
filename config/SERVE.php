@@ -9,4 +9,4 @@
 
     const METHOD="AES-256-CBC";
     const SECRET_KEY='$CBB@2022';
-    const SECRET_ID ='940615';
+    const SECRET_IV ='940615';

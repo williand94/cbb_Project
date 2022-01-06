@@ -6,7 +6,7 @@
          protected static function get_views_models($view)
          {
              $whiteList =
-                    ["home","players-list","player-new-view","player-search","player-update",   "guardian-new","guardian-list","guardian-search","guardian-update","user-list","user-new","user-update","user-search"];
+                    ["home","players-list","player-new","player-search","player-update",   "guardian-new","guardian-list","guardian-search","guardian-update","user-list","user-new","user-update","user-search","item-list","item-new","item-update","item-search","company"];
  
              if(in_array($view, $whiteList))
              {
